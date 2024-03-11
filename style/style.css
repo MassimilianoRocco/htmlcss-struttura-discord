@@ -59,3 +59,49 @@ nav{
     background-color: rgb(218, 134, 204);
     border: 1px dotted black;
 }
+
+.white-section{
+    height: 35rem;
+    display: flex;
+}
+
+.section-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.grey-section{
+        height: 35rem;
+        display: flex;
+        background-color: rgb(211,211,211);
+}
+
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.blue1{
+    background-color: dodgerblue;
+    width: 60%;
+}
+
+.pink2{
+    background-color: pink;
+    width: 40%;
+}
+
+.second-grey-section{
+    height: 60rem;
+    display: flex;
+    background-color: rgb(211,211,211);
+}
+
+.green-container{
+    background-color: rgb(34,139,34);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
