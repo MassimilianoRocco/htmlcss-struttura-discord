@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: skyblue;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    width: 80%;
+    min-height: 10%;
+    margin: 1rem auto;
+    background-color: goldenrod;
+    display: flex;
+}
+
+.logo-container{
+    width: 20%;
+    text-align: left;
+    border: 1px dotted black;
+    padding: 1rem;
+}
+
+.link-container{
+    width: 60%;
+    text-align: center;
+    border: 1px dotted black;
+    padding: 1rem;
+}
+
+.login-container{
+    width: 20%;
+    text-align: right;
+    border: 1px dotted black;
+    padding: 1rem;
+}
+
+.header-section{
+    height: calc(89% - 10px);
+    margin-bottom: 0.5rem;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-rosa{
+    width: 50%;
+    height: 80%;
+    background-color: rgb(218, 134, 204);
+    border: 1px dotted black;
+}
