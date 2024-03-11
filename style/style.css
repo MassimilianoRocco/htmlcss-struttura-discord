@@ -26,21 +26,21 @@ nav{
 .logo-container{
     width: 20%;
     text-align: left;
-    border: 1px dotted black;
+    border: 2px dotted black;
     padding: 1rem;
 }
 
 .link-container{
     width: 60%;
     text-align: center;
-    border: 1px dotted black;
+    border: 2px dotted black;
     padding: 1rem;
 }
 
 .login-container{
     width: 20%;
     text-align: right;
-    border: 1px dotted black;
+    border: 2px dotted black;
     padding: 1rem;
 }
 
@@ -57,7 +57,7 @@ nav{
     width: 50%;
     height: 80%;
     background-color: rgb(218, 134, 204);
-    border: 1px dotted black;
+    border: 2px dotted black;
 }
 
 .white-section{
@@ -104,4 +104,63 @@ nav{
     width: 80%;
     height: 80%;
     margin: auto;
+}
+
+footer{
+    height: 50rem;
+    display: flex;
+    background-color: rgb(35,39,42);
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+
+.footer-container{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.footer-box1{
+    width: 30%;
+    background-color: rgb(240,128,128);
+    border: 2px dotted black;
+}
+
+.footer-box2{
+    width: calc(70% / 4);
+    background-color: rgb(35,178,170);
+    border: 2px dotted white;
+}
+
+.lower-footer{
+    height: 20%;
+    border: 2px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.lower-container{
+    background-color: rgb(127,255,212);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer{
+    border: 2px dotted black;
+    background-color: pink ;
+    padding: 1rem;   
+}
+
+.button-footer{
+    border: 2px dotted black;
+    background-color: pink ;
+    padding: 1rem;
 }
