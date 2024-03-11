@@ -1,3 +1,4 @@
+/*** GENERICS ***/
 *{
     margin: 0;
     padding: 0;
@@ -8,11 +9,20 @@ body {
     font-family: sans-serif;
 }
 
+.black-border{
+    border: 2px dotted black;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/***** HEADER *****/
 header{
     background-color: skyblue;
     height: 30rem;
-    display: flex;
     flex-direction: column;
+    display: flex;
 }
 
 nav{
@@ -26,21 +36,18 @@ nav{
 .logo-container{
     width: 20%;
     text-align: left;
-    border: 2px dotted black;
     padding: 1rem;
 }
 
 .link-container{
     width: 60%;
     text-align: center;
-    border: 2px dotted black;
     padding: 1rem;
 }
 
 .login-container{
     width: 20%;
     text-align: right;
-    border: 2px dotted black;
     padding: 1rem;
 }
 
@@ -53,13 +60,13 @@ nav{
     align-items: center;
 }
 
-.div-rosa{
+.pink-box{
     width: 50%;
     height: 80%;
     background-color: rgb(218, 134, 204);
-    border: 2px dotted black;
 }
 
+/***** MAIN *****/
 .white-section{
     height: 35rem;
     display: flex;
@@ -76,11 +83,6 @@ nav{
         height: 35rem;
         display: flex;
         background-color: rgb(211,211,211);
-}
-
-
-.reverse{
-    flex-direction: row-reverse;
 }
 
 .blue1{
@@ -106,6 +108,7 @@ nav{
     margin: auto;
 }
 
+/**** FOOTER ****/
 footer{
     height: 50rem;
     display: flex;
@@ -126,7 +129,6 @@ footer{
 .footer-box1{
     width: 30%;
     background-color: rgb(240,128,128);
-    border: 2px dotted black;
 }
 
 .footer-box2{
@@ -154,13 +156,11 @@ footer{
 }
 
 .logo-footer{
-    border: 2px dotted black;
     background-color: pink ;
     padding: 1rem;   
 }
 
 .button-footer{
-    border: 2px dotted black;
     background-color: pink ;
     padding: 1rem;
 }
